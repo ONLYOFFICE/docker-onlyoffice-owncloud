@@ -2,21 +2,12 @@
 
 set -x
 
-docker exec -u www-data app-server php occ --no-warnings config:system:get trusted_domains >> trusted_domain.tmp
+docker cp ./onlyoffice app-server:/var/www/owncloud/custom/
 
-if ! grep -q "app-server" trusted_domain.tmp; then
-    TRUSTED_INDEX=$(cat trusted_domain.tmp | wc -l);
-    docker exec -u www-data app-server php occ --no-warnings config:system:set trusted_domains $TRUSTED_INDEX --value="nginx-server"
-fi
+docker exec app-server chown -R www-data:www-data /var/www/owncloud/custom/onlyoffice
 
-rm trusted_domain.tmp
+docker exec -it app-server occ --no-warnings app:enable onlyoffice
 
-docker cp ./onlyoffice app-server:/var/www/html/apps/
-
-docker exec app-server chown -R www-data:www-data /var/www/html/apps/onlyoffice
-
-docker exec -u www-data app-server php occ --no-warnings app:enable onlyoffice
-
-docker exec -u www-data app-server php occ --no-warnings config:system:set onlyoffice DocumentServerUrl --value="/ds-vpath/"
-docker exec -u www-data app-server php occ --no-warnings config:system:set onlyoffice DocumentServerInternalUrl --value="http://onlyoffice-document-server/"
-docker exec -u www-data app-server php occ --no-warnings config:system:set onlyoffice StorageUrl --value="http://nginx-server/"
+docker exec -it app-server occ --no-warnings config:system:set onlyoffice DocumentServerUrl --value="/ds-vpath/"
+docker exec -it app-server occ --no-warnings config:system:set onlyoffice DocumentServerInternalUrl --value="http://onlyoffice-document-server/"
+docker exec -it app-server occ --no-warnings config:system:set onlyoffice StorageUrl --value="http://nginx-server/"
