@@ -13,8 +13,8 @@ services:
       - onlyoffice
     volumes:
       - ./onlyoffice:/tmp/onlyoffice
-      - ./configure.sh:/tmp/configure.sh
-    command: bash /tmp/configure.sh
+      - ./run.sh:/run.sh
+    command: bash /run.sh
   onlyoffice-document-server:
     container_name: onlyoffice-document-server
     image: onlyoffice/documentserver:latest
