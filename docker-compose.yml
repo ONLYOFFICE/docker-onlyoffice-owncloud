@@ -11,6 +11,9 @@ services:
       - '8080'
     networks:
       - onlyoffice
+    volumes:
+      - ./onlyoffice:/tmp/onlyoffice
+      - ./configure.sh:/tmp/configure.sh
   onlyoffice-document-server:
     container_name: onlyoffice-document-server
     image: onlyoffice/documentserver:latest
