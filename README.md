@@ -27,12 +27,6 @@ Document Server and ownCloud Docker installation will install the preconfigured 
 
     *Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
 
-3. Run the `set_configuration.sh` script:
-
-    ```
-    bash set_configuration.sh
-    ```
-
 Now you can enter ownCloud and create a new document. It will be opened in ONLYOFFICE Document Server.
 
 
