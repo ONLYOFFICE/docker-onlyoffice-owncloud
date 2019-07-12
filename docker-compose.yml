@@ -11,6 +11,10 @@ services:
       - '8080'
     networks:
       - onlyoffice
+    volumes:
+      - ./onlyoffice:/tmp/onlyoffice
+      - ./run.sh:/run.sh
+    command: bash /run.sh
   onlyoffice-document-server:
     container_name: onlyoffice-document-server
     image: onlyoffice/documentserver:latest
