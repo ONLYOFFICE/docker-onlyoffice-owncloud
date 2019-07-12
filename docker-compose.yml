@@ -2,17 +2,15 @@ version: '3'
 services:
   app:
     container_name: app-server
-    image: owncloud:fpm
+    image: owncloud/server
     stdin_open: true
     tty: true
     restart: always
     expose:
       - '80'
-      - '9000'
+      - '8080'
     networks:
       - onlyoffice
-    volumes:
-      - app_data:/var/www/html
   onlyoffice-document-server:
     container_name: onlyoffice-document-server
     image: onlyoffice/documentserver:latest
@@ -40,12 +38,10 @@ services:
       - onlyoffice
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
-      - app_data:/var/www/html
 networks:
   onlyoffice:
     driver: 'bridge'
 volumes:
   document_data:
   document_log:
-  app_data:
   mysql_data:
