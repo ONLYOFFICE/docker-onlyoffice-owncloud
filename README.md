@@ -100,7 +100,7 @@ Official website: [https://www.onlyoffice.com/](https://www.onlyoffice.com/?utm
 
 Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
 
-Integration Edition: [https://www.onlyoffice.com/connectors-nextcloud.aspx](https://www.onlyoffice.com/connectors-nextcloud.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
+Integration Edition: [https://www.onlyoffice.com/connectors-owncloud.aspx](https://www.onlyoffice.com/connectors-owncloud.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
 
 
 ## User Feedback and Support
