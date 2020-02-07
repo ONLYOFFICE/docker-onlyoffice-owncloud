@@ -21,18 +21,20 @@ Document Server and ownCloud Docker installation will install the preconfigured 
 
 2. Run Docker Compose:
 
+    **Please note**: the action must be performed with **root** rights.
+
     ```
     docker-compose up -d
     ```
 
-    *Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
+    **Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
 
 Now you can enter ownCloud and create a new document. It will be opened in ONLYOFFICE Document Server.
 
 
 ## ONLYOFFICE Document Server editions
 
-Here we offer you to deploy ownCloud with preconfigured free version of ONLYOFFICE Document Server. Note that there’re commercial versions of it. 
+Here we offer you to deploy ownCloud with preconfigured free version of ONLYOFFICE Document Server. Note that there're commercial versions of it. 
 
 **ONLYOFFICE Document Server:**
 
@@ -94,13 +96,14 @@ The table below will help you make the right choice.
 
 *Changing style and deleting (Full support coming soon)
 
+
 ## Project Information
 
-Official website: [https://www.onlyoffice.com/](https://www.onlyoffice.com/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
+Official website: [https://www.onlyoffice.com/](https://www.onlyoffice.com/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
 
-Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
+Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
 
-Integration Edition: [https://www.onlyoffice.com/connectors-owncloud.aspx](https://www.onlyoffice.com/connectors-owncloud.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
+Integration Edition: [https://www.onlyoffice.com/connectors-owncloud.aspx](https://www.onlyoffice.com/connectors-owncloud.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
 
 
 ## User Feedback and Support
