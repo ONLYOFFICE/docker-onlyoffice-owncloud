@@ -27,8 +27,8 @@ services:
       - '80'
       - '443'
     volumes:
-      - document_data:/var/www/onlyoffice/Data
-      - document_log:/var/log/onlyoffice
+      - ./document_data:/var/www/onlyoffice/Data
+      - ./document_log:/var/log/onlyoffice
   nginx:
     container_name: nginx-server
     image: nginx
@@ -49,3 +49,4 @@ volumes:
   document_data:
   document_log:
   mysql_data:
+  only_office:
