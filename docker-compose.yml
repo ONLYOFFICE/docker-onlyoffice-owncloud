@@ -12,7 +12,7 @@ services:
     networks:
       - onlyoffice
     volumes:
-      - ./onlyoffice:/tmp/onlyoffice
+      - ./onlyoffice:/mnt/data/files/
       - ./run.sh:/run.sh
     command: bash /run.sh
   onlyoffice-document-server:
