@@ -110,11 +110,6 @@ Official website: [https://www.onlyoffice.com/](https://www.onlyoffice.com/?utm_
 
 Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
 
-Integration Edition: [https://www.onlyoffice.com/connectors-owncloud.aspx](https://www.onlyoffice.com/connectors-owncloud.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDockerOC)
-
-
-## User Feedback and Support
-
 If you have any problems with or questions about [ONLYOFFICE Document Server][2], please visit our official forum to find answers to your questions: [dev.onlyoffice.org][1] or you can ask and answer ONLYOFFICE development questions on [Stack Overflow][3].
 
 [1]: http://dev.onlyoffice.org
