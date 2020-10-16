@@ -34,13 +34,13 @@ Now you can enter ownCloud and create a new document. It will be opened in ONLYO
 
 ## ONLYOFFICE Docs editions
 
-Here we offer you to deploy ownCloud with preconfigured free version of ONLYOFFICE Docs. Note that there're commercial versions of it. 
+Here we offer you to deploy ownCloud with preconfigured free version of ONLYOFFICE Docs (packaged as Document Server). Note that there're commercial versions of it. 
 
 **ONLYOFFICE Docs:**
 
 * Community Edition (`onlyoffice-documentserver` package)
 
-* Enterprise Edition (`onlyoffice-documentserver-ie` package)
+* Enterprise Edition (`onlyoffice-documentserver-ee` package)
 
 The table below will help you make the right choice.
 
