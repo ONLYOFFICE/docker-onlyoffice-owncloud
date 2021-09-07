@@ -114,6 +114,6 @@ Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
 
 If you have any problems with or questions about [ONLYOFFICE Document Server][2], please visit our official forum to find answers to your questions: [forum.onlyoffice.com][1] or you can ask and answer ONLYOFFICE development questions on [Stack Overflow][3].
 
-[1]: http://forum.onlyoffice.com
+[1]: https://forum.onlyoffice.com
 [2]: https://github.com/ONLYOFFICE/DocumentServer
 [3]: http://stackoverflow.com/questions/tagged/onlyoffice
