@@ -16,7 +16,7 @@ Document Server (distributed as ONLYOFFICE Docs starting from version 6.0) and o
     ```
     git clone --recursive https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
     cd docker-onlyoffice-owncloud
-    git submodule update --remote
+    git submodule update --init --remote
     ```
 
 2. Run Docker Compose:
