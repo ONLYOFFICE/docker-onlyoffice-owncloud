@@ -23,6 +23,8 @@ services:
     restart: always
     networks:
       - onlyoffice
+    environment:
+      - JWT_ENABLED=false
     expose:
       - '80'
       - '443'
