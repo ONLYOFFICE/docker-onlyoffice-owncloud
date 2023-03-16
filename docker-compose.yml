@@ -11,6 +11,8 @@ services:
       - '8080'
     networks:
       - onlyoffice
+    environment:
+      - OWNCLOUD_TRUSTED_DOMAINS=localhost,nginx-server
     volumes:
       - ./onlyoffice:/tmp/onlyoffice
       - ./run.sh:/run.sh
