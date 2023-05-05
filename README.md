@@ -29,6 +29,8 @@ Document Server (distributed as ONLYOFFICE Docs starting from version 6.0) and o
 
     **Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
 
+**Please note**: The default JWT (secret key) is enabled in ONLYOFFICE Document Server. It is recommended to specify your own secret key in the ownCloud administrative configuration and [ONLYOFFICE Docs](https://helpcenter.onlyoffice.com/installation/docs-configure-jwt.aspx).
+
 Now you can enter ownCloud and create a new document. It will be opened in ONLYOFFICE Document Server.
 
 

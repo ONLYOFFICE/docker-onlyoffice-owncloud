@@ -10,4 +10,5 @@ occ --no-warnings app:enable onlyoffice
 occ --no-warnings config:system:set onlyoffice DocumentServerUrl --value="/ds-vpath/"
 occ --no-warnings config:system:set onlyoffice DocumentServerInternalUrl --value="http://onlyoffice-document-server/"
 occ --no-warnings config:system:set onlyoffice StorageUrl --value="http://nginx-server/"
+occ --no-warnings config:system:set onlyoffice jwt_secret --value="secret"
 tail -f /tmp/server.log
