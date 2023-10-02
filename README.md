@@ -1,6 +1,8 @@
 ## Document Server and ownCloud Docker installation
 
 Document Server (distributed as ONLYOFFICE Docs starting from version 6.0) and ownCloud Docker installation will install the preconfigured version of [ONLYOFFICE Document Server][2] connected to ownCloud to your server running them in Docker containers.
+This Docker Compose installation is only distributed for testing purposes and cannot be used in any production environment. 
+The feature requests should be submitted to the repo [https://github.com/ONLYOFFICE/onlyoffice-owncloud](https://github.com/ONLYOFFICE/onlyoffice-owncloud)
 
 
 ## Requirements
